@@ -1,0 +1,43 @@
+
+Step 1: Clone the branch(Repo) => (Master repo only cloned)
+
+Step 2: git checkout (Your branch name)
+
+Step 3: git pull (For safety( any commits in your branch))
+
+Step 4: git merge master  =>  
+
+=========================================
+
+S-1: git branch (Check current branch)
+
+S-2: git status (Show Changed files)
+
+S-3: git add . (Add the changes into my repo)
+
+S-4: git commit -am "Commit Message"
+
+S-5: git checkout develop (Goto develop branch)
+
+S-6: git pull 
+ (Download the develop repo files)
+
+S-7: If "UPTODATE" 
+
+		7.1 -- git merge mathivanan 
+		
+		7.2 -- git push origin develop
+		
+		7.3 -- git log -2 (check my last commit)
+		
+		7.4 -- git checkout mathivanan
+		
+	  Else
+	  
+		git checkout mathivanan
+		
+		git merge develop
+		
+		git status
+		
+		and repeat step S-5 to S-7
